@@ -166,8 +166,8 @@ public class Reproducao extends javax.swing.JPanel {
        
        //1
         if(jComboBox1.getSelectedItem().equals("Watch That Man")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\build\\classes\\trabalho\\capas\\28980.jpg")); 
-            uriString = new File("C:\\Users\\\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\build\\classes\\trabalho\\uploads\\28980.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\28980.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\28980.mp3").toURI().toString();
         }
         
         //2
