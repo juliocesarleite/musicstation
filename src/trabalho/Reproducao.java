@@ -35,13 +35,18 @@ public class Reproducao extends javax.swing.JPanel {
     int Lancamento;
     int Faixa;
     String NomeAudio;
-    
+    String nomeMusica;
+    ExMusicas ex;
+       
     public Reproducao() {
         initComponents();    
+      
     }
     
     
-    
+    public void setNomeMusica(String nomeme){
+        nomeMusica = nomeme;
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -148,8 +153,8 @@ public class Reproducao extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       //AS MUSICAS QUE ESTÃO COM A LINHA DO JLABEL COMENTADAS, NÃO TEM IMAGENS CORRESPONDENTES NA PASTA IMAGES
-       pedidoSQL1 = "SELECT tbcantor.NomeCantor from tbmusica, tbcantor where ((NomeMusica='"+jComboBox1.getSelectedItem()+"') and (tbmusica.idmcantor = tbcantor.idCantor))";
+//AS MUSICAS QUE ESTÃO COM A LINHA DO JLABEL COMENTADAS, NÃO TEM IMAGENS CORRESPONDENTES NA PASTA IMAGES         
+            pedidoSQL1 = "SELECT tbcantor.NomeCantor from tbmusica, tbcantor where ((NomeMusica='"+jComboBox1.getSelectedItem()+"') and (tbmusica.idmcantor = tbcantor.idCantor))";
             acessoBD = new AcessoBD();
             acessoBD.conecta();
             rs = acessoBD.consulta(pedidoSQL1);
@@ -163,9 +168,9 @@ public class Reproducao extends javax.swing.JPanel {
             }
             acessoBD.fechaConexao();
       
-       
+        
        //1
-        if(jComboBox1.getSelectedItem().equals("Watch That Man")){
+        if(jComboBox1.getSelectedItem().equals("Watch That Man")|| jComboBox1.getSelectedItem().equals(nomeMusica)){
             jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\28980.jpg")); 
             uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\28980.mp3").toURI().toString();
         }
