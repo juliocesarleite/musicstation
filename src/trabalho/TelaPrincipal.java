@@ -38,8 +38,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     this.setContentPane(painel);
     this.validate();
 }
-   
-    
+
     
     
    
