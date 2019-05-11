@@ -166,129 +166,129 @@ public class Reproducao extends javax.swing.JPanel {
        
        //1
         if(jComboBox1.getSelectedItem().equals("Watch That Man")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\28980.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\28980.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\28980.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\28980.mp3").toURI().toString();
         }
         
         //2
         if(jComboBox1.getSelectedItem().equals("Aladdin Sane (1913-1938-197?)")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\15197.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\15197.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\15197.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\15197.mp3").toURI().toString();
         }
         
         //3
         if(jComboBox1.getSelectedItem().equals("Drive-In Saturday")){
-           jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\19666.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\19666.mp3").toURI().toString();
+           jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\19666.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\19666.mp3").toURI().toString();
         }
         
         //4
         if(jComboBox1.getSelectedItem().equals("Panic in Detroid")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\26385.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\26385.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\26385.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\26385.mp3").toURI().toString();
         }
         
         //5
         if(jComboBox1.getSelectedItem().equals("Cracked Actor")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\16502.jpg")); 
-            uriString = new File("C:\\User\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\16502.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\16502.jpg")); 
+            uriString = new File("C:\\User\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\16502.mp3").toURI().toString();
         }
         
         //6
         if(jComboBox1.getSelectedItem().equals("Time")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\5751.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\5751.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\5751.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\5751.mp3").toURI().toString();
         }
         
         //7
         if(jComboBox1.getSelectedItem().equals("The Prettiest Star")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\740.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\740.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\740.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\740.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Lets Spend the Night Together")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\25421.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\25421.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\25421.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\25421.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("The Jean Genie")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\28162.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\28162.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\28162.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\28162.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Lady Grinning Soul")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\8979.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\8979.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\8979.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\8979.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("One More Time")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\31083.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\31083.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\31083.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\31083.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Aerodynamic")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\26960.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\26960.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\26960.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\26960.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Digital Love")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\26441.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\26441.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\26441.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\26441.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Harder, Better, Faster, Stronger")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\26702.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\26702.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\26702.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\26702.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Give Life Back To Music")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\19068.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\19068.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\19068.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\19068.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("The Game of Love")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\12037.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\12037.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\12037.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\12037.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Dirty Deeds")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\24995.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\24995.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\24995.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\24995.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Love Hurts")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\12037.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\12037.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\12037.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\12037.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Bad Reputation")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\25630.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\25630.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\25630.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\25630.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Jezebel")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\23057.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\23057.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\23057.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\23057.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Girls Just Want to Have Fun")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\21762.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\21762.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\21762.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\21762.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Time After Time")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\32275.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\32275.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\32275.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\32275.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Angel of The Morning")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\29951.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\29951.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\29951.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\29951.mp3").toURI().toString();
         }
         
         if(jComboBox1.getSelectedItem().equals("Someday")){
-            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\capas\\9258.jpg")); 
-            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\Trabalho\\src\\uploads\\9258.mp3").toURI().toString();
+            jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\capas\\9258.jpg")); 
+            uriString = new File("C:\\Users\\JULIOCESARLEITEDEJES\\Documents\\NetBeansProjects\\musicstation\\src\\uploads\\9258.mp3").toURI().toString();
         }
         
         
