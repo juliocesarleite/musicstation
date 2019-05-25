@@ -53,12 +53,13 @@ public final class ExMusicas extends javax.swing.JPanel {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jtMusica = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
 
         setMaximumSize(new java.awt.Dimension(350, 320));
         setMinimumSize(new java.awt.Dimension(350, 320));
         setPreferredSize(new java.awt.Dimension(350, 320));
 
+        jtMusica.setBackground(new java.awt.Color(0, 0, 0));
+        jtMusica.setForeground(new java.awt.Color(255, 255, 255));
         jtMusica.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -75,6 +76,8 @@ public final class ExMusicas extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        jtMusica.setGridColor(new java.awt.Color(0, 0, 0));
+        jtMusica.setSelectionBackground(new java.awt.Color(204, 0, 0));
         jScrollPane1.setViewportView(jtMusica);
         if (jtMusica.getColumnModel().getColumnCount() > 0) {
             jtMusica.getColumnModel().getColumn(0).setMinWidth(55);
@@ -85,42 +88,20 @@ public final class ExMusicas extends javax.swing.JPanel {
             jtMusica.getColumnModel().getColumn(1).setMaxWidth(200);
         }
 
-        jButton1.setText("a");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 350, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 291, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton1))
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
-        nomeMusica = (String) jtMusica.getValueAt(jtMusica.getSelectedRow(), 1);
-        
-        System.out.println("Nome da musica: " + nomeMusica);
-      
-    }//GEN-LAST:event_jButton1ActionPerformed
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jtMusica;
     // End of variables declaration//GEN-END:variables

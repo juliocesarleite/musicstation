@@ -15,17 +15,16 @@ public class AcessoBD {
  }
  public void conecta(){
  try{
-Class.forName("com.mysql.jdbc.Driver");
-con = DriverManager.getConnection("jdbc:mysql://localhost/musicstation?user=root");
- System.out.println("Conexão bem sucedida!");
- stm = con.createStatement();
- }
- catch(ClassNotFoundException cnf){
- System.out.println("Exceção: " + cnf.toString());
- }
- catch(SQLException se){
- System.out.println("Exceção: " + se.toString());
- }
+        Class.forName("com.mysql.jdbc.Driver");
+        con = DriverManager.getConnection("jdbc:mysql://localhost/musicstation?user=root");
+         System.out.println("Conexão bem sucedida!");
+         stm = con.createStatement();
+     }catch(ClassNotFoundException cnf){
+        System.out.println("Exceção: " + cnf.toString());
+     }
+     catch(SQLException se){
+        System.out.println("Exceção: " + se.toString());
+     }
  }
  public void executa(String pedido){
  try{
