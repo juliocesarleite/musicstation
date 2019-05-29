@@ -11,9 +11,7 @@ package trabalho;
  */
 public class TelaCadastro extends javax.swing.JFrame {
 
-    /**
-     * Creates new form TelaCadastro
-     */
+    public static String comando;
     public TelaCadastro() {
         initComponents();
     }
@@ -50,7 +48,6 @@ public class TelaCadastro extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(204, 0, 0));
         jLabel2.setText("E-MAIL");
 
-        jTextField1.setText("Insira seu e-mail");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -60,12 +57,8 @@ public class TelaCadastro extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("NOME DE USUÁRIO");
 
-        jTextField2.setText("Insira um nome de usuário");
-
         jLabel4.setForeground(new java.awt.Color(204, 0, 0));
         jLabel4.setText("SENHA");
-
-        jTextField3.setText("Insira uma senha");
 
         jButton1.setFont(new java.awt.Font("Eras Bold ITC", 3, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 0));
@@ -73,6 +66,11 @@ public class TelaCadastro extends javax.swing.JFrame {
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton1MouseClicked(evt);
+            }
+        });
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
             }
         });
 
@@ -214,6 +212,14 @@ public class TelaCadastro extends javax.swing.JFrame {
         tl.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       comando = "INSERT INTO tbuser (Nome, EMail, Senha) VALUES ('"+jTextField2.getText()+"', '"+jTextField1.getText()+"', '"+jTextField3.getText()+"')";
+       AcessoBD abd = new AcessoBD();
+       abd.conecta();
+       abd.executa(comando);
+       abd.fechaConexao();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
