@@ -20,7 +20,13 @@ import java.util.logging.Logger;
  *
  * @author ht3000222
  */
-public class AcessoUser {
+
+public class AcessoUser{
+    
+private Connection connection;
+
+
+public AcessoUser(){
         this.connection = new AcessoBD().getConnection();
     } 
     
@@ -37,14 +43,14 @@ public class AcessoUser {
             rs = stmt.executeQuery();
             
             while(rs.next()){ //enquanto o select gerar valor, o while será executado
-                User user = new User();
+                User userr = new User();
                 
-                user.setUser(rs.getString("user"));
-                mus.setEmail(rs.getString("email"));
-                mus.setSenha(rs.getString("senha"));
+                userr.setUser(rs.getString("user"));
+                userr.setEmail(rs.getString("email"));
+                userr.setSenha(rs.getString("senha"));
   
                 
-                user.add(user);
+                user.add(userr);
             }
             stmt.close();
             rs.close();
@@ -61,5 +67,4 @@ public class AcessoUser {
     }
    
 
-}
 }
