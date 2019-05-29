@@ -39,7 +39,7 @@ public AcessoUser(){
         ArrayList <User> user = new ArrayList();
         
         try {
-            stmt = connection.prepareStatement("select user, email, senha, id, adm  from tbuser");
+            stmt = connection.prepareStatement("select user, email, senha from tbuser");
             rs = stmt.executeQuery();
             
             while(rs.next()){ //enquanto o select gerar valor, o while será executado

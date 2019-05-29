@@ -5,15 +5,25 @@
  */
 package trabalho;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+import static trabalho.Reproducao.acessoBD;
+import static trabalho.Reproducao.pedidoSQL1;
+
 /**
  *
  * @author ht3000222
  */
 public class TelaLogin extends javax.swing.JFrame {
-
-    /**
-     * Creates new form TelaLog
-     */
+    public static ResultSet rs = null;
+    AcessoUser au = new AcessoUser();
+    String emailbanco;
+    String email;
+    String senhabanco;
+    String senha;
+    public static String comando;
     public TelaLogin() {
         initComponents();
     }
@@ -47,7 +57,6 @@ public class TelaLogin extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(204, 0, 0));
         jLabel2.setText("E-MAIL");
 
-        jTextField1.setText("Insira seu e-mail");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -57,14 +66,17 @@ public class TelaLogin extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("SENHA");
 
-        jTextField2.setText("Insira sua senha");
-
         jButton1.setFont(new java.awt.Font("Eras Bold ITC", 3, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 0));
         jButton1.setText("LOGAR");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton1MouseClicked(evt);
+            }
+        });
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
             }
         });
 
@@ -167,6 +179,43 @@ public class TelaLogin extends javax.swing.JFrame {
         ti.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        email = jTextField1.getText();
+        senha = jTextField2.getText();
+        comando = "SELECT EMail, Senha from tbuser where EMail ='"+email+"'";
+        AcessoBD abd = new  AcessoBD();
+        abd.conecta();
+        rs = abd.consulta(comando);
+        try{
+            while(rs.next()){
+                emailbanco = ""+(rs.getString("EMail"));
+                senhabanco = ""+(rs.getString("Senha"));
+            }
+        }
+        catch(SQLException e){
+            System.out.println("Exceção: " + e.toString());
+        }
+        
+        abd.fechaConexao();
+        /*
+        System.out.println("email inserido" + email);
+        System.out.println("email banco" + emailbanco);
+        System.out.println("senha inserida" + senha);
+        System.out.println("senha banco" + senhabanco);
+        */
+        
+        
+        if((email.equalsIgnoreCase(emailbanco)) && (senha.equalsIgnoreCase(senhabanco))){
+            System.out.println("LOGIN SUCEDIDO");
+            TelaPrincipal tp = new TelaPrincipal();
+            tp.setVisible(true);
+            this.dispose();
+        }else{
+            JOptionPane.showMessageDialog(null, "DADOS INCORRETOS");
+        }
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
