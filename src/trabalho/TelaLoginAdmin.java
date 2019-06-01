@@ -183,6 +183,8 @@ public class TelaLoginAdmin extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Context context = new Context(new JFrameAdmin());
+
         email = jTextField1.getText();
         senha = jTextField2.getText();
         comando = "SELECT email, senha from tbadmin where email ='"+email+"'";
@@ -210,8 +212,7 @@ public class TelaLoginAdmin extends javax.swing.JFrame {
         
         if((email.equalsIgnoreCase(emailbanco)) && (senha.equalsIgnoreCase(senhabanco))){
             System.out.println("LOGIN SUCEDIDO");
-            TelaPrincipalAdmin tpadmin = new TelaPrincipalAdmin();
-            tpadmin.setVisible(true);
+            context.executeStrategy();
             this.dispose();
         }else{
             JOptionPane.showMessageDialog(null, "DADOS INCORRETOS");
