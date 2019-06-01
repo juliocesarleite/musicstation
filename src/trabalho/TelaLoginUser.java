@@ -180,6 +180,8 @@ public class TelaLoginUser extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        Context context = new Context(new JFrameUser());
+
         email = jTextField1.getText();
         senha = jTextField2.getText();
         comando = "SELECT EMail, Senha from tbuser where EMail ='"+email+"'";
@@ -207,8 +209,7 @@ public class TelaLoginUser extends javax.swing.JFrame {
         
         if((email.equalsIgnoreCase(emailbanco)) && (senha.equalsIgnoreCase(senhabanco))){
             System.out.println("LOGIN SUCEDIDO");
-            TelaPrincipalUser tp = new TelaPrincipalUser();
-            tp.setVisible(true);
+            context.executeStrategy();
             this.dispose();
         }else{
             JOptionPane.showMessageDialog(null, "DADOS INCORRETOS");
