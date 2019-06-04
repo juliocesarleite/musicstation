@@ -33,14 +33,23 @@ public class CadastroAlbum extends javax.swing.JPanel {
         jTextField2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 153, 153));
+        setBackground(new java.awt.Color(0, 0, 0));
 
+        jLabel1.setFont(new java.awt.Font("Eras Bold ITC", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
         jLabel1.setText("CADASTRO ALBUM");
 
+        jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 0, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setText("Nome do Album:");
 
+        jLabel3.setFont(new java.awt.Font("Eras Bold ITC", 0, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("Nome da capa:");
 
+        jButton1.setBackground(new java.awt.Color(0, 0, 0));
+        jButton1.setFont(new java.awt.Font("Eras Bold ITC", 0, 11)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 0, 0));
         jButton1.setText("CADASTRAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,12 +62,12 @@ public class CadastroAlbum extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(67, 67, 67)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(124, 124, 124)
-                        .addComponent(jButton1))
+                        .addGap(11, 11, 11)
+                        .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(76, 76, 76)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel3))
@@ -67,16 +76,16 @@ public class CadastroAlbum extends javax.swing.JPanel {
                             .addComponent(jTextField1)
                             .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(119, 119, 119)
-                        .addComponent(jLabel1)))
-                .addContainerGap(82, Short.MAX_VALUE))
+                        .addGap(53, 53, 53)
+                        .addComponent(jButton1)))
+                .addContainerGap(77, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(43, 43, 43)
+                .addGap(115, 115, 115)
                 .addComponent(jLabel1)
-                .addGap(52, 52, 52)
+                .addGap(50, 50, 50)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -84,9 +93,9 @@ public class CadastroAlbum extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addGap(60, 60, 60)
                 .addComponent(jButton1)
-                .addGap(57, 57, 57))
+                .addContainerGap(181, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
